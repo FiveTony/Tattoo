@@ -1,22 +1,41 @@
 {
   "files": {
     "main.css": "/tattoo/static/css/main.ace9898c.css",
-    "main.js": "/tattoo/static/js/main.53af599c.js",
+    "main.js": "/tattoo/static/js/main.30112a06.js",
     "static/media/video3.mp4": "/tattoo/static/media/video3.34b174866d298ac35a75.mp4",
-    "static/media/photoMyServices3.jpg": "/tattoo/static/media/photoMyServices3.71cafb9cc05462bfc486.jpg",
+    "static/media/myWorksPhoto23.jpg": "/tattoo/static/media/myWorksPhoto23.dc7df8b7a2b7f9edcaa4.jpg",
+    "static/media/myWorksPhoto10.jpg": "/tattoo/static/media/myWorksPhoto10.8248d34844985f5bb584.jpg",
     "static/media/photoMyServices1_1.jpg": "/tattoo/static/media/photoMyServices1_1.12af05ae370e0e8c30e2.jpg",
+    "static/media/myWorksPhoto15.jpg": "/tattoo/static/media/myWorksPhoto15.f5fdf4eaa7a92ca6e211.jpg",
+    "static/media/myWorksPhoto9.jpg": "/tattoo/static/media/myWorksPhoto9.48da547826ed832002cd.jpg",
+    "static/media/myWorksPhoto11.jpg": "/tattoo/static/media/myWorksPhoto11.1f05980de527b8774b3a.jpg",
+    "static/media/myWorksPhoto4.jpg": "/tattoo/static/media/myWorksPhoto4.75e6014154ac53d0e8ba.jpg",
     "static/media/photoMyServices2.jpg": "/tattoo/static/media/photoMyServices2.50f51d41257d8d151cad.jpg",
-    "static/media/photoMyWorks2.jpg": "/tattoo/static/media/photoMyWorks2.6a07b582c13bb900a5db.jpg",
+    "static/media/photoMyServices3_1.jpg": "/tattoo/static/media/photoMyServices3_1.3d99de7dd5c0c696f00d.jpg",
+    "static/media/myWorksPhoto1.jpg": "/tattoo/static/media/myWorksPhoto1.ba92a48070eeaee09200.jpg",
+    "static/media/myWorksPhoto19.jpg": "/tattoo/static/media/myWorksPhoto19.77e4cb9ae07608d6ec46.jpg",
+    "static/media/myWorksPhoto3.jpg": "/tattoo/static/media/myWorksPhoto3.1fb7a8fba9824a1f6615.jpg",
+    "static/media/myWorksPhoto22.jpg": "/tattoo/static/media/myWorksPhoto22.286847c4edd0803e82cf.jpg",
+    "static/media/myWorksPhoto6.jpg": "/tattoo/static/media/myWorksPhoto6.3189f30094255b7650b6.jpg",
+    "static/media/myWorksPhoto13.jpg": "/tattoo/static/media/myWorksPhoto13.f3caf48dce14c4bcc91d.jpg",
+    "static/media/myWorksPhoto2.jpg": "/tattoo/static/media/myWorksPhoto2.7dae61a053527e09fcd9.jpg",
+    "static/media/myWorksPhoto8.jpg": "/tattoo/static/media/myWorksPhoto8.f6f7ceb80de15909c398.jpg",
+    "static/media/myWorksPhoto21.jpg": "/tattoo/static/media/myWorksPhoto21.45f4c7f18c17094bde13.jpg",
+    "static/media/myWorksPhoto16.jpg": "/tattoo/static/media/myWorksPhoto16.6b42622ac2ace52b3ba6.jpg",
+    "static/media/myWorksPhoto17.jpg": "/tattoo/static/media/myWorksPhoto17.78c2007cd26211fdfe9b.jpg",
     "static/media/photo_about1.jpg": "/tattoo/static/media/photo_about1.56099552bd12b44ff1fa.jpg",
-    "static/media/photoMyWorks1.jpg": "/tattoo/static/media/photoMyWorks1.3d7773570c4ab2cdc60b.jpg",
-    "static/media/photoMyWorks3.jpg": "/tattoo/static/media/photoMyWorks3.ee42b0ff17e09807792d.jpg",
-    "static/media/svg-1.svg": "/tattoo/static/media/svg-1.82a3abbe1d80f77fa4607add11f32283.svg",
+    "static/media/myWorksPhoto12.jpg": "/tattoo/static/media/myWorksPhoto12.3521bbeafc91b5c083de.jpg",
+    "static/media/myWorksPhoto7.jpg": "/tattoo/static/media/myWorksPhoto7.00441dc9aeff22475eb6.jpg",
+    "static/media/myWorksPhoto5.jpg": "/tattoo/static/media/myWorksPhoto5.60c8689c87dc86f0224d.jpg",
+    "static/media/myWorksPhoto20.jpg": "/tattoo/static/media/myWorksPhoto20.81d79cd6914a5ad44008.jpg",
+    "static/media/myWorksPhoto14.jpg": "/tattoo/static/media/myWorksPhoto14.5a85c9e83116124cf29b.jpg",
+    "static/media/myWorksPhoto18.jpg": "/tattoo/static/media/myWorksPhoto18.93dfda65406683170d2b.jpg",
     "index.html": "/tattoo/index.html",
     "main.ace9898c.css.map": "/tattoo/static/css/main.ace9898c.css.map",
-    "main.53af599c.js.map": "/tattoo/static/js/main.53af599c.js.map"
+    "main.30112a06.js.map": "/tattoo/static/js/main.30112a06.js.map"
   },
   "entrypoints": [
     "static/css/main.ace9898c.css",
-    "static/js/main.53af599c.js"
+    "static/js/main.30112a06.js"
   ]
 }
