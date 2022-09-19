@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tattoo/static/css/main.ace9898c.css",
-    "main.js": "/tattoo/static/js/main.30112a06.js",
+    "main.js": "/tattoo/static/js/main.f66555d5.js",
     "static/media/video3.mp4": "/tattoo/static/media/video3.34b174866d298ac35a75.mp4",
     "static/media/myWorksPhoto23.jpg": "/tattoo/static/media/myWorksPhoto23.dc7df8b7a2b7f9edcaa4.jpg",
     "static/media/myWorksPhoto10.jpg": "/tattoo/static/media/myWorksPhoto10.8248d34844985f5bb584.jpg",
@@ -32,10 +32,10 @@
     "static/media/myWorksPhoto18.jpg": "/tattoo/static/media/myWorksPhoto18.93dfda65406683170d2b.jpg",
     "index.html": "/tattoo/index.html",
     "main.ace9898c.css.map": "/tattoo/static/css/main.ace9898c.css.map",
-    "main.30112a06.js.map": "/tattoo/static/js/main.30112a06.js.map"
+    "main.f66555d5.js.map": "/tattoo/static/js/main.f66555d5.js.map"
   },
   "entrypoints": [
     "static/css/main.ace9898c.css",
-    "static/js/main.30112a06.js"
+    "static/js/main.f66555d5.js"
   ]
 }
