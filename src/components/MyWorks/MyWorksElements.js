@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import ModalImage from "react-modal-image"
 
 export const MyWorksContainer = styled.div`
   height: auto;
@@ -11,10 +12,10 @@ export const MyWorksContainer = styled.div`
   // @media screen and (max-width: 768px) {
   //   height: 1100px;
   // }
-  // @media screen and (max-width: 480px) {
-  //   height: 1300px;
-  // }
-  padding: 40px 0;
+  @media screen and (max-width: 480px) {
+    padding: 100px 0;
+  }
+  padding: 100px 0;
 `
 export const MyWorksWrapper = styled.div`
   max-width: 1200px;
@@ -25,7 +26,7 @@ export const MyWorksWrapper = styled.div`
   grid-gap: 26px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     grid-template-columns: 1fr 1fr;
   }
   @media screen and (max-width: 768px) {
@@ -35,30 +36,49 @@ export const MyWorksWrapper = styled.div`
 `
 
 export const MyWorksCard = styled.div`
-  // background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  // border-radius: 10px;
+  border-radius: 4px;
   max-height: 380px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 480px) {
+    padding: 16px;
+  }
 `
 export const MyWorksIcon = styled.img`
-  height: 300px;
-  width: 300px;
-  // margin-bottom: 10px;
+  height: 240px;
+  width: 240px;
+  border-radius: 4px;
+
+  @media screen and (max-width: 480px) {
+    height: 180px;
+    width: 180px;
+  }
+`
+
+export const MyWorksModalImage = styled(ModalImage)`
+  height: 240px;
+  width: 240px;
+  border-radius: 4px;
+
+  @media screen and (max-width: 480px) {
+    height: 220px;
+    width: 220px;
+  }
 `
 
 export const MyWorksH1 = styled.h1`
   font-size: 2.5rem;
   color: #000;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 `
 

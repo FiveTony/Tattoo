@@ -13,6 +13,10 @@ export const FooterWrap = styled.div`
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
+
+  @media screen and (max-width: 820px) {
+    padding: 24px 12px;
+  }
 `
 export const FooterLinksContainer = styled.div`
   display: flex;
@@ -84,11 +88,15 @@ export const SocialLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  // margin-bottom: 16px;
   font-weight: bold;
 
   margin-top: auto;
   margin-bottom: auto;
+
+  @media screen and (max-width: 820px) {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
 `
 
 export const WebsiteRights = styled.small`

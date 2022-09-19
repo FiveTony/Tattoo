@@ -1,7 +1,7 @@
 import React from "react"
 import Icon1 from "../../images/photoMyServices1_1.jpg"
 import Icon2 from "../../images/photoMyServices2.jpg"
-import Icon3 from "../../images/photoMyServices3.jpg"
+import Icon3 from "../../images/photoMyServices3_1.jpg"
 import {
   MyServicesContainer,
   MyServicesH1,
@@ -9,8 +9,10 @@ import {
   MyServicesCard,
   MyServicesIcon,
   MyServicesH2,
+  MyServicesModalImage,
   MyServicesP,
 } from "./MyServicesElements"
+import ModalImage from "react-modal-image"
 
 const MyServices = () => {
   return (
@@ -18,29 +20,56 @@ const MyServices = () => {
       <MyServicesH1>Виды работ</MyServicesH1>
       <MyServicesWrapper className="MyServicesWrapper">
         <MyServicesCard className="MyServicesCard">
-          <MyServicesIcon src={Icon1} className="MyServicesIcon" />
+          <MyServicesModalImage
+            small={Icon1}
+            large={Icon1}
+            alt="Разработка индивидуального эскиза"
+            hideDownload={true}
+            hideZoom={true}
+            className="MyServicesModalImage"
+
+          />
+          {/* <MyServicesIcon src={Icon1} className="MyServicesIcon" /> */}
           <MyServicesH2>Разработка индивидуального эскиза</MyServicesH2>
-          <MyServicesP>
+          {/* <MyServicesP>
             Хочешь уникальную работу, которая подчеркнет твои сильные стороны и
             добавит тебе уверенности? Здесь ты получишь работу , которая будет
             такой же особенной как и ты.
-          </MyServicesP>
+          </MyServicesP> */}
         </MyServicesCard>
         <MyServicesCard>
-          <MyServicesIcon src={Icon2} />
-          <MyServicesH2>Нанесение татуировки, коррекция татуировки</MyServicesH2>
-          <MyServicesP>
+          {/* <MyServicesIcon src={Icon2} /> */}
+          <MyServicesModalImage
+            small={Icon2}
+            large={Icon2}
+            alt="Нанесение татуировки, коррекция татуировки"
+            hideDownload={true}
+            hideZoom={true}
+
+          />
+          <MyServicesH2>
+            Нанесение татуировки, коррекция татуировки
+          </MyServicesH2>
+          {/* <MyServicesP>
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,
             per inceptos himenaeos.
-          </MyServicesP>
+          </MyServicesP> */}
         </MyServicesCard>
         <MyServicesCard>
-          <MyServicesIcon src={Icon3} />
+          {/* <MyServicesIcon src={Icon3} /> */}
+          <MyServicesModalImage
+            small={Icon3}
+            large={Icon3}
+            alt="Перекрытие татуировки, перекрытие шрамов"
+            hideDownload={true}
+            hideZoom={true}
+
+          />
           <MyServicesH2>Перекрытие татуировки, перекрытие шрамов</MyServicesH2>
-          <MyServicesP>
+          {/* <MyServicesP>
             Integer eget pretium eros. Cras facilisis facilisis urna id
             suscipit.
-          </MyServicesP>
+          </MyServicesP> */}
         </MyServicesCard>
       </MyServicesWrapper>
     </MyServicesContainer>

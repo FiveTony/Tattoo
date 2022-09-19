@@ -20,7 +20,13 @@ export const AboutWrapper = styled.div`
   padding: 0 24px;
   justify-content: center;
 
+  // @media screen and (max-width: 1000px) {
+  //   height: 800px;
+  // }
   @media screen and (max-width: 768px) {
+    height: 840px;
+  }
+  @media screen and (max-width: 480px) {
     height: 800px;
   }
 `
@@ -60,6 +66,15 @@ export const TextWrapper = styled.div`
   max-width: 520px;
   padding-top: 0;
   padding-bottom: 30px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 0px;
+    margin-left: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    padding-bottom: 0px;
+    margin-left: 20px;
+  }
 `
 
 export const TopLine = styled.p`
@@ -70,6 +85,7 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  
 `
 export const Heading = styled.h1`
   margin-bottom: 24px;
@@ -89,6 +105,10 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "fff")};
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `
 export const BtnWrap = styled.div`
   display: flex;
