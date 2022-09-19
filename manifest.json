@@ -1,9 +1,6 @@
 {
   "short_name": "dablin_tattoo",
   "name": "DAblin Tattoo",
-  "icons": [
-   
-  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
