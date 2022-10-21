@@ -12,7 +12,7 @@ import {
   Subtitle,
   AboutRow,
 } from "./AboutElements"
-import img1 from "../../images/photo_about1.jpg"
+import img1 from "../../images/photo_about435x580.jpg"
 
 const AboutSection = () => {
   return (
@@ -29,7 +29,7 @@ const AboutSection = () => {
                     внутренний мир. Вкладываю частичку себя в каждую свою
                     работу более 7 лет и верю, что для людей она - это нечто большее,
                     чем просто рисунок или текст. Что она несёт в себе нечто неповторимое и
-                    значимое для каждого.
+                    значимое для каждого. Работаю в тату-студии, в Мытищах.
                   </Subtitle>
               </TextWrapper>
             </Column1>

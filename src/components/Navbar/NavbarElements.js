@@ -64,18 +64,20 @@ export const MobileIcon = styled.div`
 `
 
 export const MyIcon = styled.div`
-  // @media screen and (max-width: 768px) {
-  //   display: block;
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   transform: translate(-100%, 60%);
-  //   font-size: 1.8rem;
-  //   cursor: pointer;
-  //   color: #fff;
-  // }
   margin-right: 6px;
   margin-top: 4px;
+
+
+  animation: rotation 1s infinite alternate linear;
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg) scale(1);
+  }
+  to {
+      transform: rotate(16deg) scale(1.1);
+  }
+  }
 `
 
 export const NavMenu = styled.ul`
@@ -89,6 +91,7 @@ export const NavMenu = styled.ul`
     display: none;
   }
 `
+
 export const NavItem = styled.li`
   height: 80px;
 `

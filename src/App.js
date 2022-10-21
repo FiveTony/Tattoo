@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/tattoo' element={<Home />} exact />
+        <Route path='/' element={<Home />} exact />
       </Routes>
     </BrowserRouter>
   );

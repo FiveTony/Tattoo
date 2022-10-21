@@ -12,7 +12,6 @@ import {
   MyButton,
 } from "./HeroSectionElements"
 import Video from "../../videos/video3.mp4"
-import { Button } from "../ButtonElement"
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false)
@@ -25,8 +24,8 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Тату-студия</HeroH1>
-        <HeroP>в Мытищах</HeroP>
+        <HeroH1>Тату-мастер</HeroH1>
+        <HeroP>Дарья</HeroP>
         <HeroBtnWrapper>
           <MyButton
             to="contact"

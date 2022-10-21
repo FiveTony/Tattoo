@@ -126,11 +126,10 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-  width: 100%;
-  // margin: 0 0 10px 0;
+  // width: 100%;
   padding-right: 0;
 
-  // @media screen and (max-width: 768px) {
-  //   width: 80%;
-  // }
+  @media screen and (max-width: 960px) {
+    width: 90%;
+  }
 `

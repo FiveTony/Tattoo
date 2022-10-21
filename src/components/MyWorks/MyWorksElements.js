@@ -9,6 +9,8 @@ export const MyWorksContainer = styled.div`
   align-items: center;
   background: #ffffff;
 
+  // background-color: #8080801f;
+
   // @media screen and (max-width: 768px) {
   //   height: 1100px;
   // }
@@ -41,7 +43,7 @@ export const MyWorksCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 4px;
-  max-height: 380px;
+  // max-height: 380px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -51,25 +53,25 @@ export const MyWorksCard = styled.div`
   }
 `
 export const MyWorksIcon = styled.img`
-  height: 240px;
-  width: 240px;
-  border-radius: 4px;
+  // height: 240px;
+  // width: 240px;
+  // border-radius: 4px;
 
-  @media screen and (max-width: 480px) {
-    height: 180px;
-    width: 180px;
-  }
+  // @media screen and (max-width: 480px) {
+  //   height: 180px;
+  //   width: 180px;
+  // }
 `
 
 export const MyWorksModalImage = styled(ModalImage)`
-  height: 240px;
-  width: 240px;
-  border-radius: 4px;
+  // height: 240px;
+  // width: 240px;
+  // border-radius: 4px;
 
-  @media screen and (max-width: 480px) {
-    height: 220px;
-    width: 220px;
-  }
+  // @media screen and (max-width: 480px) {
+  //   height: 220px;
+  //   width: 220px;
+  // }
 `
 
 export const MyWorksH1 = styled.h1`

@@ -9,6 +9,8 @@ export const MyServicesContainer = styled.div`
   align-items: center;
   background: #010606;
 
+  overflow: hidden;
+
   @media screen and (max-width: 1000px) {
     height: 1200px;
   }
@@ -61,30 +63,21 @@ export const MyServicesCard = styled.div`
     height: 280px;
     width: 240px;
   }
-
-  // &:hover {
-  //   transform: scale(1.02);
-  //   transition: all 0.2s ease-in-out;
-  //   cursor: pointer;
-  // }
 `
 export const MyServicesIcon = styled.img`
   height: 280px;
-  width: 280px;
   margin-bottom: 40px;
   border-radius: 10px;
 `
 
 export const MyServicesModalImage = styled(ModalImage)`
-  height: 300px;
-  width: 300px;
-  margin-bottom: 30px;
+  height: 332px;
+  margin-bottom: 20px;
   border-radius: 10px;
 
   @media screen and (max-width: 480px) {
       margin-bottom: 10px;
       height: 200px;
-      width: 200px;
   }
 `
 

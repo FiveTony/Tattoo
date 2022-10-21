@@ -4,48 +4,62 @@ import { Link } from "react-router-dom"
 export const ContactContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-
+  // overflow: hidden;
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding-top: 100px;
   }
 `
 
 export const ContactWrapper = styled.div`
+  max-width: 1260px;
+  margin: 0 auto;
+
   display: flex;
   z-index: 1;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 24px;
-  justify-content: center;
+
+  padding: 0 40px;
+
+  justify-content: space-between;
   height: 480px;
-  padding-left: 100px;
-  @media screen and (max-width: 1000px) {
-    padding-left: 0px;
+
+  @media screen and (max-width: 1140px) {
+    padding: 0 20px;
   }
   @media screen and (max-width: 768px) {
     display: grid;
+    padding: 0;
+    max-width: auto;
+    height: auto;
+  }
+`
+
+export const LeftColumn = styled.div`
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 400px;
+  @media screen and (max-width: 1140px) {
+    margin-left: 20px;
+    width: auto;
+  }
+  @media screen and (max-width: 768px) {
+    margin-left: 80px;
+  }
+  @media screen and (max-width: 580px) {
+    margin-left: 60px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-left: 40px;
   }
 `
 
 export const TextWrapper = styled.div`
-  max-width: 520px;
-  padding-top: 0;
-
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 100px;
+  width: 100%;
 
   @media screen and (max-width: 768px) {
-    width: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 40px;
-    max-width: 300px;
+    margin-bottom: 60px;
   }
   @media screen and (max-width: 480px) {
-    max-width: 200px;
-    
+    // max-width: 200px;
   }
 `
 
@@ -58,8 +72,12 @@ export const TopLine = styled.p`
   text-transform: uppercase;
   margin-bottom: 16px;
 
+  @media screen and (max-width: 1140px) {
+    letter-spacing: 1px;
+  }
   @media screen and (max-width: 768px) {
-    font-size: 12px;
+    letter-spacing: 1.4px;
+    font-size: 16px;
   }
 `
 export const Heading = styled.h1`
@@ -69,13 +87,12 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1140px) {
     font-size: 30px;
   }
 `
 export const Subtitle = styled.p`
-  max-width: 440px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "fff")};
@@ -83,43 +100,47 @@ export const Subtitle = styled.p`
   @media screen and (max-width: 768px) {
     margin-bottom: 10px;
   }
+  @media screen and (max-width: 580px) {
+    width: 90%;
+  }
 `
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
 `
 export const ImgWrap = styled.div`
-  max-width: 380px;
-  height: 100%;
-
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: flex;
     justify-content: center;
+    margin: auto 0;
+    height: 70%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
   }
 `
 export const Img = styled.img`
-  width: 100%;
-  // margin: 0 0 10px 0;
+  height: 100%;
   padding-right: 0;
-
-  // @media screen and (max-width: 768px) {
-  //   width: 80%;
-  // }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const SocialMedia = styled.section`
-  max-width: 1000px;
-  width: 100%;
-  margin-top: 100px;
+  width: fit-content;
+
+  @media screen and (max-width: 1140px) {
+    max-width: 200px;
+    margin-top: 40px;
+  }
 
   @media screen and (max-width: 768px) {
-    width: 100%;
-    margin-top: 0px;
+    margin-bottom: 60px;
   }
   @media screen and (max-width: 480px) {
-    width: 100%;
     margin-top: 0px;
-    margin-left: 20px;
   }
 `
 export const SocialMediaWrap = styled.div`

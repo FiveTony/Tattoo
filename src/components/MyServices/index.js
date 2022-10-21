@@ -1,18 +1,15 @@
 import React from "react"
-import Icon1 from "../../images/photoMyServices1_1.jpg"
-import Icon2 from "../../images/photoMyServices2.jpg"
+import Icon1 from "../../images/photoMyServices1_2.jpg"
+import Icon2 from "../../images/photoMyServices2_2.jpg"
 import Icon3 from "../../images/photoMyServices3_1.jpg"
 import {
   MyServicesContainer,
   MyServicesH1,
   MyServicesWrapper,
   MyServicesCard,
-  MyServicesIcon,
   MyServicesH2,
   MyServicesModalImage,
-  MyServicesP,
 } from "./MyServicesElements"
-import ModalImage from "react-modal-image"
 
 const MyServices = () => {
   return (

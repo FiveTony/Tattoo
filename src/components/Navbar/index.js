@@ -46,7 +46,7 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: "#fff" }}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/tattoo" onClick={toggleHome}>
+          <NavLogo to="/" onClick={toggleHome}>
             DABlin Tattoo
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -135,7 +135,7 @@ const Navbar = ({ toggle }) => {
               <MyIcon>
                 <FaPhoneAlt />
               </MyIcon>
-              89165368686
+              +7 916 536 8686
             </MyLink>
           </NavBtn>
         </NavbarContainer>
